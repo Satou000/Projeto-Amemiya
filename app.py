@@ -125,6 +125,7 @@ def salvar_no_banco(dados):
             dados.get('DiametroInt', False),
             dados.get('DiametroIntDimensao'),
             dados.get('DiametroExt', False),
+            dados.get('DiametroExtDimensao'),
             dados.get('Comprimento', False),
             dados.get('ComprimentoDimensao'),
             dados.get('DimensaoMaior', False),
